@@ -27,32 +27,32 @@ The aim of analysis is to identify the root cause of the problem (i.e. cancellat
 
 ### Observations:
 
-**Completion Rate:** Only 42% of airport/city requests are completed due to a significant supply-demand gap.
-**Time Dependency:** This gap varies significantly by the hour of the day.
-**Critical Periods:** Most revenue loss occurs during two critical periods: morning rush (5 to 10 AM) and evening rush (5 to 10 PM).
-**Supply/Demand Fluctuations:** The supply-demand gap flips between morning and evening rush hours.
-**Impact on Service:** Rush hours lead to increased non-availability and cancellations.
-  **- Non-availability:** Insufficient drivers in high-demand areas during rush hours.
-  **- Cancellations:** Drivers prefer more profitable requests during rush hours.
+- **Completion Rate:** Only 42% of airport/city requests are completed due to a significant supply-demand gap.
+- **Time Dependency:** This gap varies significantly by the hour of the day.
+- **Critical Periods:** Most revenue loss occurs during two critical periods: morning rush (5 to 10 AM) and evening rush (5 to 10 PM).
+- **Supply/Demand Fluctuations:** The supply-demand gap flips between morning and evening rush hours.
+- **Impact on Service:** Rush hours lead to increased non-availability and cancellations.
+- **Non-availability:** Insufficient drivers in high-demand areas during rush hours.
+- **Cancellations:** Drivers prefer more profitable requests during rush hours.
 
 ### Inference:
 
 **Morning Rush Hypothesis:**
 
-**Demand Pattern:** Most people head to the airport, fewer to the city.
-**Driver Allocation:** More drivers go to the airport, causing non-availability for city requests.
-**Profitability:** City-to-airport trips are less profitable due to potential empty return trips, leading to cancellations as drivers wait for more profitable city-to-city requests.
+- **Demand Pattern:** Most people head to the airport, fewer to the city.
+- **Driver Allocation:** More drivers go to the airport, causing non-availability for city requests.
+- **Profitability:** City-to-airport trips are less profitable due to potential empty return trips, leading to cancellations as drivers wait for more profitable city-to-city requests.
 
 **Evening Rush Hypothesis:**
 
-**Demand Pattern:** Most people head to the city, fewer to the airport.
-**Driver Allocation:** More drivers go to the city, causing non-availability for airport requests.
-**Profitability:** Drivers prefer more profitable city trips over airport trips.
+- **Demand Pattern:** Most people head to the city, fewer to the airport.
+- **Driver Allocation:** More drivers go to the city, causing non-availability for airport requests.
+- **Profitability:** Drivers prefer more profitable city trips over airport trips.
 
 
 ## Expanded scope
 
-### Possible Solutions to Fill the Supply-Demand Gap:
+### Possible Solutions to Fill the Supply-Demand Gap
 
 1) Incentives for Drivers:
 
