@@ -86,7 +86,7 @@ The aim of analysis is to identify the root cause of the problem (i.e. cancellat
 
 ### Possible Solutions to Better Understand the Problem
 
-1) Data Collection and Advanced Analytics:**
+1) Data Collection and Advanced Analytics:
 
 - Collect detailed data on trip requests, completions, cancellations, and driver availability.
 - Use advanced analytics to forecast driver shortages and create heat maps for critical areas.
